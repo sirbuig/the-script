@@ -21,8 +21,8 @@ else
     exit 1
 fi
 
-# build-essentials
-echo "Installing build-essentials..."
+# build-essential
+echo "Installing build-essential..."
 sudo apt install build-essential -y
 
 # Python
