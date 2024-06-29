@@ -64,6 +64,3 @@ while true; do
         echo "What's taking you so long? Hurry up!"
     fi
 done
-
-# Java TBA
-# ...
