@@ -21,6 +21,9 @@ else
     exit 1
 fi
 
+# Update and upgrade the system
+sudo apt update -y && sudo apt upgrade -y
+
 # build-essential
 echo "Installing build-essential..."
 sudo apt install build-essential -y
