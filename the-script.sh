@@ -64,3 +64,8 @@ while true; do
         echo "What's taking you so long? Hurry up!"
     fi
 done
+
+# Fira Code font
+echo "Installing Fira Code font..."
+
+sudo apt install fonts-firacode -y
