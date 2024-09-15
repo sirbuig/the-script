@@ -59,9 +59,15 @@ echo -e "${YELLOW}[Maven] Executing the script to set up the variables...${NC}"
 source /etc/profile.d/maven.sh
 
 # Add to ~/.bashrc
-if ! grep -q '/etc/profile.d/maven.sh' "$HOME/.bashrc"; then
-    echo -e "${YELLOW}[Maven] Adding source command to ~/.bashrc..."
-    echo "source /etc/profile.d/maven.sh" >> "$HOME/.bashrc"
+# if ! grep -q '/etc/profile.d/maven.sh' "$HOME/.bashrc"; then
+#     echo -e "${YELLOW}[Maven] Adding source command to ~/.bashrc..."
+#     echo "source /etc/profile.d/maven.sh" >> "$HOME/.bashrc"
+# fi
+
+# Add to ~/.zshrc
+if ! grep -q '/etc/profile.d/maven.sh' "$HOME/.zshrc"; then
+    echo -e "${YELLOW}[Maven] Adding source command to ~/.zshrc..."
+    echo "source /etc/profile.d/maven.sh" >> "$HOME/.zshrc"
 fi
 
 # Maven - check
