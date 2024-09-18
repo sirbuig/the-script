@@ -11,6 +11,7 @@ This script covers:
 - [x] Java
 - [x] Maven
 - [x] `zsh` support
+- [x] Go
 - [ ] Docker 🐳
 
 ## Contribution
